@@ -1,0 +1,138 @@
+:root{
+         --primery-color: #f5f5f5;
+         --accent-color: #2196f3;
+         --primery-text-color: #212121;
+         --secondary-tex-color: #757575;
+         --secondary-white: #ffffff;
+
+}
+body{
+         background-color: var(--primery-color);
+         letter-spacing: 0.03em;
+         font-family: Roboto, sans-serif;
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 1.71;
+         color: var(--secondary-tex-color);}
+                                             /* логотип*/
+ span {
+        color: var(--accent-color);
+    }
+ .studio {
+        color: #000000;
+        font-weight: 700; 
+        font-family: raleway, sans-serif;
+        font-size: 26px;
+        line-height: 1.17;
+    }
+        
+ .studio-footer {
+        color: var(--secondary-white);
+        font-weight: 700;
+        font-family: raleway, sans-serif;
+        font-size: 26px;
+        line-height: 1.17;
+    }
+                                             /*посилання*/
+.link:hover, .link:focus, 
+.nav-link:hover, .nav-link:focus, 
+.address-link:focus, .address-link:hover,
+address a:focus, address a:hover{
+        color: var(--accent-color);
+    }
+a{
+         text-decoration: none;
+    }
+ul{
+        list-style: none;
+    }
+
+                                         /*Навігація*/
+
+.nav-link{
+        color: var(--primery-text-color);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.17;
+        letter-spacing: 0.02em;
+
+    }
+.link{color: var(--secondary-tex-color);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.17;
+        letter-spacing: 0.02em;
+    }
+                                            /*герой*/
+    h1{
+        color: var(--secondary-white);
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        text-align: center;
+        background-color: #2F303A;
+    }
+    .main-button{
+        cursor: pointer;
+        color: var(--secondary-white);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.06em;
+        background-color: var(--accent-color)
+    }
+
+                                         /*Інструменти*/
+.tools-title{
+        color: var(--primery-text-color);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.17;
+    }
+h2{
+        color: var(--primery-text-color);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+    }
+                                        /*Команда*/
+    .our-team{
+        color: var(--primery-text-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.17;
+    }
+                                             /*Футер*/
+address a{
+         color: rgba(256, 256, 256, 0.6);
+        line-height: 1.71;
+}
+.address-link{
+        color: var(--secondary-white);
+}
+footer {
+        background-color: #2F303A;
+    }   
+                                            /*Фільтр портфоліо*/
+    button:hover, button:focus{
+        color: var(--secondary-white);
+        background-color: var(--accent-color);
+        border-color: var(--accent-color);
+    }
+button {
+        cursor: pointer;
+    }
+
+.portfolio-title{
+        color: var(--primery-text-color);
+        font-weight: 700;
+        font-size: 18px;
+         line-height: 2;
+        letter-spacing: 0.06em;
+    }
+.portfolio-text{
+        font-size: 16px;
+         line-height: 1.88;
+    }
+
